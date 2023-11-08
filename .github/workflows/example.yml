@@ -8,7 +8,8 @@ on:
                 default: "Anon"
             language:
                 description: "Language"
-                required: truetype: choice
+                required: true
+                type: choice
                 options:
                     - "en"
                     - "fr"
